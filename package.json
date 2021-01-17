@@ -1,7 +1,12 @@
 {
-  "name": "frontend",
+  "name": "mappedplaces-frontend",
   "version": "0.1.0",
+  "author": "James Hagood",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cardfaux/MappedPlaces-Frontend"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

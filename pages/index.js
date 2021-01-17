@@ -1,8 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+/* eslint-disable react/no-unescaped-entities */
 
 export default function Home() {
-  return (
-    <h1>Let's start!</h1>
-  )
+  return <h1>Let's start!</h1>;
 }
