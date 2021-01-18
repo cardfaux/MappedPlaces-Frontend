@@ -12,7 +12,7 @@ const UserItem = (props) => {
         <Link href={`${props.id}/places`}>
           <a>
             <div className={styles.user_item__image}>
-              <Avatar image={props.image} alt={props.name} />
+              <Avatar image={props.image} alt={props.name} title={props.title} />
             </div>
             <div className={styles.user_item__info}>
               <h2>{props.name}</h2>

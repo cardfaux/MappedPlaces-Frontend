@@ -16,6 +16,7 @@ const Avatar = (props) => {
       <img
         src={props.image}
         alt={props.alt}
+        title={props.title}
         style={{ width: props.width, height: props.width }}
       />
     </div>
